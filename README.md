@@ -20,7 +20,7 @@ In an era where cyber threats are evolving, **ScanMyWeb** provides a quick healt
 
 ## 🛠️ Tech Stack
 I used a modern tech stack to ensure scalability and performance:
-* **Frontend:** [React.js / Python  / HTML5]
+* **Frontend:** React.js / Python  / HTML5
 * **Deployment:** Netlify
 * **Security Logic:** Custom backend scripts for vulnerability assessment.
 * **DNS:** Managed via GoDaddy.
@@ -29,7 +29,7 @@ I used a modern tech stack to ensure scalability and performance:
 ## 🚀 How to Run Locally
 1. Clone the repo:
    ```bash
-   git clone [https://github.com/MUAbdullah-sudo/WEBSITE-SCANNING.git](https://github.com/MUAbdullah-sudo/WEBSITE-SCANNING.git)
+   git clone https://github.com/MuAbdullah-sudo/WEBSITE-SCANNING.git
 
 
 🛡️ Responsible Disclosure
