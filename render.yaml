@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: scanmyweb-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --workers 4 --timeout 120 --worker-class sync
+    envVars:
+      - key: FLASK_ENV
+        value: production
+    healthCheckPath: /
+    autoDeploy: true
